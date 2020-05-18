@@ -4,6 +4,8 @@ class ControllerExtensionModule[modulename] extends Controller {
 		$this->load->language('extension/module/[modulename]');
 
 		$data = '';
+
+		$data['text'] = 'text';
 		
 		return $this->load->view('extension/module/[modulename]', $data);
 	}
