@@ -1,5 +1,5 @@
 <?php
-class ModelModule[modulename] extends Model {
+class ModelExtensionModule[modulename] extends Model {
 
 
 }
