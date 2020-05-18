@@ -1,25 +1,25 @@
-# Готовый шаблон модуля для Opencart 3 для Linux
+# Ready-made module template for Opencart 3 for Linux
 
-### Как пользоваться?
+### How to use?
 
-
-##### Копируем данные к себе на сервер
+##### Copy data to your server
 ```
 git clone https://github.com/manwhocode/Mod_3.git
 ```
 
-##### Переходим в папку с файлами
+##### Go to the file folder
 ```
-cd путь/module
-```
-
-##### Запускаем шелл - в конце добавляем имя модуля
-```
-./clone.sh имя_модуля
+cd path_to_module/module
 ```
 
+##### Run the shell - at the end add the module name
+```
+./clone.sh module_name
+```
 
-## Ошибки что делать? 
+
+## Mistakes what to do?
+
 ```
 perl: warning: Setting locale failed. 
 perl: warning: Please check that your 
@@ -29,7 +29,7 @@ LANG = "en_US.UTF-8" are supported and installed on your system.
 perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
 ```
 
-## Выполняем следующий код
+## We execute the following code
 ### Generating locales
 Missing locales are generated with locale-gen: 
 ```
